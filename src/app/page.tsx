@@ -1,7 +1,10 @@
+import { requestGetPageData } from "@/service/page";
+import Provider from "./provider";
+
 export default function Home() {
   return (
     <div>
-      Homepage
+      <Provider path="/home"/>
     </div>
   )
 }

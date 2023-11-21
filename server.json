@@ -1,0 +1,11 @@
+{
+    "itens": {
+        "name": "basic-screen",
+        "children": [
+            {
+                "__typename": "Text",
+                "text": "Testando..."
+            }
+        ]
+    }
+}

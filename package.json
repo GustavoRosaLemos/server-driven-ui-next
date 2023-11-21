@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server": "json-server server.json -p 3333 --watch"
   },
   "dependencies": {
     "@apollo/client": "^3.4.12",
@@ -16,9 +17,11 @@
     "@mantine/hooks": "^7.2.2",
     "@mantine/notifications": "^7.2.2",
     "dayjs": "^1.11.10",
+    "json-server": "^0.17.4",
     "next": "14.0.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "styled-components": "^6.1.1"
   },
   "devDependencies": {
     "@types/node": "^20",

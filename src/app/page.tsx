@@ -1,7 +1,10 @@
+import { SignalProvider } from "./components/Provider";
+import View from "./components/View";
+
 export default function Home() {
   return (
-    <div>
-      Homepage
-    </div>
+    <SignalProvider>
+      <View route="/itens" />
+    </SignalProvider>
   )
 }

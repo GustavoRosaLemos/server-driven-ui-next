@@ -5,6 +5,30 @@
             {
                 "__typename": "Text",
                 "text": "Testando..."
+            },
+            {
+                "__typename": "Container",
+                "mt": "10",
+                "bg": "red",
+                "children": [
+                    {
+                        "__typename": "Text",
+                        "text": "Testando...",
+                        "td": "underline"
+                    }
+                ]
+            },
+            {
+                "__typename": "Paper",
+                "shadow": "xl",
+                "p": "xl",
+                "children": [
+                    {
+                        "__typename": "Text",
+                        "text": "Testando...",
+                        "td": "underline"
+                    }
+                ]
             }
         ]
     }

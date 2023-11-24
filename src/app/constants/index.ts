@@ -1,6 +1,7 @@
 import { ComponentMapType } from "@/types";
 import { Container } from "../components/Container";
 import { Text } from "../components/Text";
+import { Paper } from "../components/Paper";
 
 export enum SignalValuePairKey {
     Content = "CONTENT",
@@ -19,5 +20,6 @@ export enum SignalType {
 export const COMPONENT_MAP: ComponentMapType = {
     Container,
     Text,
+    Paper,
 }
 
